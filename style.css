@@ -1,0 +1,102 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	height: 100px;
+	width: 100vw;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	font-size: 80%;
+}
+
+header a {
+	color: white;
+}
+
+i {
+	color: white;
+	margin-left: 30px;
+}
+
+section {
+	position: relative;
+	height: 400px;
+	width: 50vw;
+	/* border: 1px solid white; */
+	color: white;
+	top: 800px;
+	left: 800px;
+}
+
+h1 {
+	font-size: 40px;
+	margin: 0;
+}
+
+h4 {
+	font-size: 20px;
+	/* margin: 0; */
+}
+
+/*! CLASS */
+
+.background {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+}
+
+.left > img {
+	height: 100px;
+	width: 200px;
+	filter: grayscale(100%);
+}
+
+.left {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex: 1;
+}
+
+.center {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex: 3;
+}
+
+.right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex: 1;
+	margin-right: 30px;
+}
+
+.recent {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.button {
+	border: 1px solid white;
+	margin-top: 70px;
+	height: 60px;
+	width: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
